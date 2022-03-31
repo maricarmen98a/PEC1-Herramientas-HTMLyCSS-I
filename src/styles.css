@@ -1,9 +1,24 @@
-h1 {
-    color: rgb(214, 35, 35);
-    font-family: cursive;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 body {
-    height: 100vh;
-    color: #1f1f1f;
-    background: linear-gradient(to bottom, #bada55, #c0ffee);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+}
+h1 {
+    color: rgb(214, 35, 35);
+    font-weight: 700;
+    padding: 10px;
+}
+.front-img {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.front-img img {
+    max-width: 600px;
+    max-height: 500px;
 }
