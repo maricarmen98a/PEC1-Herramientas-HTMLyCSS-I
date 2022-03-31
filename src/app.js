@@ -1,2 +1,3 @@
-const name = 'world';
-console.log(`Hello ${name}`);
+function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');
+}
