@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>La casa de papel</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:wght@400;500&family=Lato:wght@300;400;700&family=Poppins:wght@800&family=Sansita+Swashed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.css" >
+    <script type="module" src="app.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <h1 class="animate__animated animate__slideInLeft"><a href="/src/index.html">La casa de papel</a></h1>
+      <nav>
+          <ul>
+            <li><a href="/src/index.html">Inicio</a></li>
+            <li><a href="/src/presentacion.html">Presentación</a></li>
+            <li><a href="/src/categorias.html">Personajes</a></li>
+            <li><a href="/src/enlaces.html">Enlaces</a></li>
+          </ul>
+      </nav>
+      <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="hamburger-icon__bar1"></div>
+          <div class="hamburger-icon__bar2"></div>
+          <div class="hamburger-icon__bar3"></div>
+          <ul class="hamburger__mobile-menu">
+            <li><a href="/src/index.html">Inicio</a></li>
+            <li><a href="/src/presentacion.html">Presentación</a></li>
+            <li><a href="/src/categorias.html">Personajes 
+            </a></li>
+            <li><a href="/src/enlaces.html">Enlaces</a></li>
+          </ul>
+      </div>
+    </header>
+    
+  <div class="caja-personajes">
+      <h2>Personajes</h2>
+      <img src="/src/img/money-heist2.jpg" alt="casa de papel">
+      <p>Los personajes de La casa de papel son conocidos por llevar las caretas del artista Salvador Dalí, pero a continuación, se muestran algunos de los personajes más destacados y su información más personal.</p>
+    <div class="lista">
+      <div class="acercar animate__animated animate__zoomIn">
+        <a  href="/src/personajes/profesor.html"><img src="/src/img/profesor.png" alt="Profesor">
+          <div>El profesor</div>
+        </a>
+      </div>
+      <div class="acercar animate__animated animate__zoomIn">
+        <a  href="/src/personajes/tokio.html"><img src="/src/img/tokio.png" alt="Tokio">
+          <div>Tokio</div>
+        </a>
+      </div>
+      <div class="acercar animate__animated animate__zoomIn">
+        <a  href="/src/personajes/denver.html"><img src="/src/img/denver.png" alt="Denver">
+          <div>Denver</div>
+        </a>
+      </div>
+      <div class="acercar animate__animated animate__zoomIn">
+        <a  href="/src/personajes/berlin.html"><img src="/src/img/berlin.png" alt="berlin">
+          <div>Berlín</div>
+        </a>
+      </div>
+      <div class="acercar animate__animated animate__zoomIn">
+        <a  href="/src/personajes/rio.html"><img src="/src/img/rio.png" alt="rio">
+          <div>Rio</div>
+        </a>
+      </div>
+      <div class="acercar animate__animated animate__zoomIn">
+        <a  href="/src/personajes/raquel.html"><img src="/src/img/raquel.png" alt="raquel">
+          <div>Raquel Murillo</div>
+        </a>
+      </div>
+      
+    </div> 
+    <div class="atras">    
+      <a href="javascript:history.back(1)">Atrás </a> | <a href="javascript:history.back(-1)"> Siguiente</a>
+    </div>
+  </div>
+    <footer>
+      <div>    
+        <ul class="footer">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+          </ul>
+    </div>
+    </footer>
+  </body>
+  <script src="/src/app.js"></script>
+</html>
