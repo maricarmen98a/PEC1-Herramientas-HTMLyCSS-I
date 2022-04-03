@@ -205,10 +205,17 @@ header ul li a {
         max-width: 1400px;
         max-height: 800px;
     }
+    
 }
 @media screen and (min-width: 1400px) {
     .segunda-img img {
         margin-left: 40%;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .caja2 {
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 /* categorias.html / Personajes */
@@ -435,6 +442,9 @@ h2 {
     display: flex;
     justify-content: center;
     margin: 40px;
+}
+iframe {
+    border: 0;
 }
 /* Footer */
 footer {
