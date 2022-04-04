@@ -17,3 +17,5 @@ function preloadImages(){
 }
 
 preloadImages("personajes.jpg", "money-heist.jpg", "berlin.png", "denver.png", "dinero.png", "dni.png", "heroe.png", "hospital.png", "money-heist2.jpg", "profesor.png", "raquel.png", "rio.png", "tokio.png");
+
+

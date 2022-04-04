@@ -8,6 +8,8 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: black;
     font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
 }
 
 /* Header */
@@ -104,7 +106,7 @@ header ul li a {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 190px;
+    height: 200px;
     margin-top: 20px;
 }
 .hamburger-icon .open {
@@ -134,15 +136,12 @@ header ul li a {
 .informacion-general, .informacion-parrafo, .datos {
     padding: 15px;
     line-height: 1.6;
-    text-align: center;
 
 }
-.informacion-general {
-    text-align: center;
-}
+
 .caja2 {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .segunda-img {
     display: flex;
@@ -220,17 +219,13 @@ header ul li a {
 }
 /* categorias.html / Personajes */
 .atras {
-    text-align: center;
     margin-bottom: 20px;
     padding-left: 30px;
 }
 h2 {
-    text-align: center;
     margin-bottom: 20px;
 }
-.caja-personajes {
-    text-align: center;
-}
+
 .lista {
     display: grid;    
     justify-content: center;
@@ -239,7 +234,6 @@ h2 {
     max-width: 400px;
 }
 .lista div {
-    text-align: center;
     margin-bottom: 20px;
 }
 .lista .acercar:hover {
@@ -342,8 +336,8 @@ h2 {
     .caja-grid p {
         width: 90%;
     }
-    .grid1 img {
-        margin-top: 20%;
+    .grid1 img, .grid3 img, .grid2 img {
+        margin-top: 10%;
     }
     .grid1 p, .grid2 p {
         margin-top: 5%;
@@ -397,6 +391,7 @@ h2 {
 }
 .caja-grid img {
     max-width: 70%;
+    max-height: 400px;
     margin-left: 18%;
     border-top-left-radius: 20%;
     display: grid;
@@ -404,7 +399,6 @@ h2 {
     padding-bottom: 10px;
 }
 .info-lista {
-    text-align: center;
     color: black;
 }
 .info-lista i {
@@ -429,13 +423,12 @@ h2 {
     padding-top: 10px;
 }
 @media screen and (min-width: 1200px) {
-    .info-lista {
+    .info-lista, .info-lista2 {
         margin-left: 20%;
         margin-right: 20%;
     }
 }
 .video {
-    text-align: center;
     margin-top: 20px;
 }
 .video2 {
@@ -445,6 +438,68 @@ h2 {
 }
 iframe {
     border: 0;
+}
+.ver-mas {
+    margin-top: 60px;
+}
+/*  Presentación  */
+.presentacion-main, .sinopsis {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+
+}
+.reparto {
+    margin-bottom: 50px;
+}
+.reparto ul {
+    list-style-type: none;
+}
+.reparto ul li {
+    padding: 10px;
+}
+.reparto p {
+    margin-top: 40px;
+}
+.video-presentacion, .video-presentacion p {
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.phone {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.phone img {
+    max-width: 400px;
+    border-radius: 5%;
+}
+
+/* Enlaces */
+.enlaces p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.info-lista2 ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+.info-lista2 ul {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.info-lista2 i {
+    margin-right: 10px;
+}
+.grid-ul {
+    grid-template-columns: 1fr 1fr;
+}
+@media screen and (min-width: 768px ) {
+    .info-lista2 ul {
+        display: grid;
+    }
 }
 /* Footer */
 footer {

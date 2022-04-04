@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>La casa de papel</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:wght@400;500&family=Lato:wght@300;400;700&family=Poppins:wght@800&family=Sansita+Swashed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.css" >
+    <script type="module" src="../app.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <h1 class="animate__animated animate__slideInLeft"><a href="../index.html">La casa de papel</a></h1>
+      <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../presentacion.html">Presentación</a></li>
+            <li><a href="../categorias.html">Personajes</a></li>
+            <li><a href="../enlaces.html">Enlaces</a></li>
+          </ul>
+      </nav>
+      <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="hamburger-icon__bar1"></div>
+          <div class="hamburger-icon__bar2"></div>
+          <div class="hamburger-icon__bar3"></div>
+          <ul class="hamburger__mobile-menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../presentacion.html">Presentación</a></li>
+            <li><a href="../categorias.html">Personajes 
+            </a></li>
+            <li><a href="../enlaces.html">Enlaces</a></li>
+          </ul>
+      </div>
+    </header>
+    <div class="caja-profesor">
+        <h2>Rio</h2>
+        <div class="img-profesor">
+            <img src="../img/rio.png" alt="Rio">
+        </div>
+        <div class="caja-grid">
+            <div class="grid1 animate__animated animate__bounceInUp">
+                <div><img src="../img/programar.jpg" alt="programar"></div>
+                <p>Aníbal Cortés, conocido bajo el apodo de Río, es un personaje de La casa de papel. Experto en ordenadores, este genio programa desde los seis años. Es un experto en alarmas y electrónica.</p>   
+            </div>
+            <div class="grid2 animate__animated animate__bounceInUp">
+                <div><img src="../img/amor.jpg" alt="amor"></div>
+                <p>Durante los cinco meses que pasa en la finca de Toledo junto al resto de atracadores, mantiene una relación secreta con Tokio, pese a la prohibición expresa de El Profesor. La noche antes del atraco, le pide matrimonio a ella, aunque esta no le responde. </p> 
+            </div>
+            <div class="grid3 animate__animated animate__bounceInUp">
+                <div><img src="../img/coche.png" alt="coche"></div>
+                <p>Unos días antes de entrar en la Fábrica para atracarla, visita el lugar junto a Tokio para conocerlo mejor. Una vez cumplida su misión, ambos coquetean y Tokio le cuenta los problemas que tuvo de niña. </p> 
+            </div>
+            <div class="grid4 animate__animated animate__bounceInUp">
+                <div><img src="../img/huella.jpg" alt="huella"></div>
+                <p>La pareja comete un error al llegar tarde y el vehículo del Profesor recibe una multa, que luego servirá a la policía para conocer más sobre ellos. </p>
+            </div>
+        </div>
+    
+    </div>
+    <div class="video">
+      <p>Si quieres saber más sobre la relación entre Tokio y Rio, este video presenta algunos de sus mejores momentos:</p>
+      <div class="video2">
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/v49OIzSf7iA" title="YouTube video player"></iframe>
+      </div>
+    </div>
+    <div class="ver-mas">
+      <h3>Ver más</h3>
+      <div class="lista">
+        <div class="acercar animate__animated animate__zoomIn">
+          <a  href="/src/personajes/profesor.html">
+            <div>El profesor</div>
+          </a>
+        </div>
+        <div class="acercar animate__animated animate__zoomIn">
+          <a  href="/src/personajes/tokio.html">
+            <div>Tokio</div>
+          </a>
+        </div>
+        <div class="acercar animate__animated animate__zoomIn">
+          <a  href="/src/personajes/denver.html">
+            <div>Denver</div>
+          </a>
+        </div>
+        <div class="acercar animate__animated animate__zoomIn">
+          <a  href="/src/personajes/berlin.html">
+            <div>Berlín</div>
+          </a>
+        </div>
+        <div class="acercar animate__animated animate__zoomIn">
+          <a  href="/src/personajes/rio.html">         <div>Rio</div>
+          </a>
+        </div>
+        <div class="acercar animate__animated animate__zoomIn">
+          <a  href="/src/personajes/lisboa.html">
+            <div>Lisboa</div>
+          </a>
+        </div>
+    </div>
+    <div class="atras">    
+        <a href="javascript:history.back(1)">Atrás </a> | <a href="javascript:history.back(-1)"> Siguiente</a>
+      </div>
+    <footer>
+      <div>    
+        <ul class="footer">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+          </ul>
+    </div>
+    </footer>
+
+    <script src="../app.js"></script>
+  </body> 
+</html>
