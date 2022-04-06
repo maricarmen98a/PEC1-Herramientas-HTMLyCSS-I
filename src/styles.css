@@ -1,3 +1,6 @@
+@custom-media --small-viewport (min-width: 768px);
+@custom-media --bigger-viewport (min-width: 980px);
+@custom-media --big-viewport (min-width: 1200px);
 * {
     padding: 0;
     margin: 0;
@@ -147,7 +150,7 @@ header ul li a {
 .segunda-img img {
     max-width: 250px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (--small-viewport) {
     .front-img img {
         max-width: 900px;
     }
@@ -187,7 +190,7 @@ header ul li a {
 .datos li:nth-child(1) {
     margin-bottom: 10px;
 }
-@media screen and (min-width: 980px) {
+@media screen and (--bigger-viewport) {
     .segunda-img img {
         width: 400px;
         height: 700px;
@@ -247,7 +250,7 @@ h2 {
     margin-top: 0;
     line-height: 1.6;
 }
-@media screen and (min-width: 768px) {
+@media screen and (--small-viewport) {
     .caja-personajes img {
         max-width: 800px;
     }
@@ -255,7 +258,7 @@ h2 {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media screen and (min-width: 980px) {
+@media screen and (--bigger-viewport) {
     .caja-personajes img {
         max-width: 800px;
     }
@@ -319,12 +322,12 @@ h2 {
 .grid1 p, .grid4 p {
     margin-top: 15%;
 }
-@media screen and (min-width: 768px) {
+@media screen and (--small-viewport) {
     .caja-grid {
         width: 500px;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (--big-viewport) {
     .caja-grid {
         width: 1200px;
     }
@@ -416,7 +419,7 @@ h2 {
     color: white;
     padding-top: 10px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (--big-viewport) {
     .info-lista, .info-lista2 {
         margin-left: 20%;
         margin-right: 20%;
@@ -491,7 +494,7 @@ iframe {
 .grid-ul {
     grid-template-columns: 1fr 1fr;
 }
-@media screen and (min-width: 768px ) {
+@media screen and (--small-viewport ) {
     .info-lista2 ul {
         display: grid;
     }

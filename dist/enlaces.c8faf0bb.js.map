@@ -1,1 +1,0 @@
-{"mappings":"AAAA,SAASA,iBAAiBC,GACtBA,EAAKC,UAAUC,OAAO","sources":["src/app.js"],"sourcesContent":["function toggleMobileMenu(menu) {\n    menu.classList.toggle('open');\n}\n\n"],"names":["toggleMobileMenu","menu","classList","toggle"],"version":3,"file":"enlaces.c8faf0bb.js.map"}
