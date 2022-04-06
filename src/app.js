@@ -15,6 +15,6 @@ function preloadImages(){
     }
 }
 
-preloadImages("img/personajes.jpg", "img/money-heist.jpg", "img/berlin.png", "img/denver.png", "img/dinero.png", "img/dni.png", "img/heroe.png", "img/hospital.png", "img/money-heist2.jpg", "img/profesor.png", "img/raquel.png", "img/rio.png", "img/tokio.png", "img/amigos.png", "img/amor.jpg", "img/anillos.png", "img/busqueda.png", "img/cena.png", "img/coche.png", "img/esposas.png", "img/huella.jpg", "img/ladron.png", "img/lisboa.png", "img/llamada.png", "img/madre.png", "img/muerto.png", "img/mujer-policia.png", "img/pastillas.jpg", "img/pastillas2.png", "img/phone.jpg", "img/prision.png", "img/programas.jpg", "img/puerta.png", "img/puño.png", "img/robo.png", "img/tokio.png");
+preloadImages("src/img/personajes.jpg", "src/img/money-heist.jpg", "src/img/berlin.png", "src/img/denver.png", "src/img/dinero.png", "src/img/dni.png", "src/img/heroe.png", "src/img/hospital.png", "src/img/money-heist2.jpg", "src/img/profesor.png", "src/img/raquel.png", "src/img/rio.png", "src/img/tokio.png", "src/img/amigos.png", "src/img/amor.jpg", "src/img/anillos.png", "src/img/busqueda.png", "src/img/cena.png", "src/img/coche.png", "src/img/esposas.png", "src/img/huella.jpg", "src/img/ladron.png", "src/img/lisboa.png", "src/img/llamada.png", "src/img/madre.png", "src/img/muerto.png", "src/img/mujer-policia.png", "src/img/pastillas.jpg", "src/img/pastillas2.png", "src/img/phone.jpg", "src/img/prision.png", "src/img/programas.jpg", "src/img/puerta.png", "src/img/puño.png", "src/img/robo.png", "src/img/tokio.png");
 
 
