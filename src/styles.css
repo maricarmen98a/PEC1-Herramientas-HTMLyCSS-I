@@ -494,7 +494,7 @@ iframe {
 .grid-ul {
     grid-template-columns: 1fr 1fr;
 }
-@media screen and (--small-viewport ) {
+@media screen and (--small-viewport) {
     .info-lista2 ul {
         display: grid;
     }
