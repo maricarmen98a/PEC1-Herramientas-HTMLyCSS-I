@@ -66,11 +66,10 @@ header ul li a {
 .hamburger__mobile-menu li {
     margin-bottom: 10px;
 }
-.hamburger__mobile-menu li:hover {
+.hamburger__mobile-menu li:hover, header nav ul li:hover, header h1 a:hover {
     transform: scale(1.1);
     transition: .3s;
 }
-
 .hamburger__mobile-menu .nombre {
     margin-top: 25px;
     font-size: large;
@@ -123,7 +122,6 @@ header ul li a {
 }
 
 /* Informacion de la página principal */
-
 .front-img {
     display: flex;
     justify-content: center;
@@ -138,7 +136,6 @@ header ul li a {
     line-height: 1.6;
 
 }
-
 .caja2 {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -190,7 +187,6 @@ header ul li a {
 .datos li:nth-child(1) {
     margin-bottom: 10px;
 }
-
 @media screen and (min-width: 980px) {
     .segunda-img img {
         width: 400px;
@@ -217,7 +213,8 @@ header ul li a {
         margin-right: 20%;
     }
 }
-/* categorias.html / Personajes */
+
+/* Categorias.html / Personajes */
 .atras {
     margin-bottom: 20px;
     padding-left: 30px;
@@ -225,7 +222,6 @@ header ul li a {
 h2 {
     margin-bottom: 20px;
 }
-
 .lista {
     display: grid;    
     justify-content: center;
@@ -267,7 +263,6 @@ h2 {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-
 
 /* El profesor */
 .caja-profesor {
@@ -353,7 +348,6 @@ h2 {
     }
     .grid1, .grid2, .grid3, .grid4 {
         display: flex;
-
     }
     .grid1 {
         grid-column-start: 1;
@@ -442,6 +436,7 @@ iframe {
 .ver-mas {
     margin-top: 60px;
 }
+
 /*  Presentación  */
 .presentacion-main, .sinopsis {
     margin-left: 5%;
@@ -501,6 +496,7 @@ iframe {
         display: grid;
     }
 }
+
 /* Footer */
 footer {
     width: 100%;
